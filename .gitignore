@@ -1,0 +1,11 @@
+node_modules/
+dist/
+*.log
+.env
+.env.local
+apps/server/data/*.db
+apps/server/data/*.db-shm
+apps/server/data/*.db-wal
+apps/server/data/uploads/
+apps/server/uploads/
+.DS_Store
