@@ -15,7 +15,7 @@
 - [ ] `npm run typecheck` passes
 - [ ] `npm test` passes
 - [ ] `npm run seed` passes (if schema/seed touched)
-- [ ] `npm run build --workspace @aegis/web` passes (if web touched)
+- [ ] `npm run build --workspace @radar/web` passes (if web touched)
 - Manual test steps performed: <!-- describe -->
 
 ## Screenshots (if UI change)

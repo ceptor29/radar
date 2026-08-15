@@ -1,6 +1,6 @@
-# Aegis GRC
+# Radar
 
-A governance, risk, and compliance (GRC) platform built from the product plans in this repo (see `GRC Platform - Full-Proof Product & Engineering Plan.md` and its v2).
+Radar is a governance, risk, and compliance (GRC) platform built from the product plans in this repo (see `GRC Platform - Full-Proof Product & Engineering Plan.md` and its v2).
 
 This is the **P1 Foundation**: a working full-stack app with risk scoring, controls, evidence management, RBAC, and an audit trail.
 
@@ -32,7 +32,7 @@ Open http://localhost:5173.
 | Owner        | owner@acme.io       |
 | Auditor      | auditor@acme.io     |
 
-REST parity API is available at http://localhost:4000/api/v1 (demo key: `aegis-demo-key`).
+REST parity API is available at http://localhost:4000/api/v1 (demo key: `radar-demo-key`).
 
 ## Scripts
 

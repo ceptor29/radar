@@ -12,7 +12,7 @@ class FakeStorage {
 }
 
 (globalThis as Record<string, unknown>).localStorage = new FakeStorage();
-(globalThis as Record<string, unknown>).localStorage.setItem("aegis_token", "ssr-test-token");
+(globalThis as Record<string, unknown>).localStorage.setItem("radar_token", "ssr-test-token");
 
 import * as React from "react";
 (globalThis as Record<string, unknown>).React = React;

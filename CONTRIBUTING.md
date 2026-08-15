@@ -1,4 +1,4 @@
-# Contributing to Aegis GRC
+# Contributing to Radar
 
 Thanks for your interest in contributing! This project follows an open contribution model. Please read this guide before opening an issue or pull request.
 
@@ -11,7 +11,7 @@ Thanks for your interest in contributing! This project follows an open contribut
 
 ## Before you start
 
-- Open an [issue](https://github.com/CEPTORB/aegis-grc/issues) describing the bug or feature so we know what you are working on.
+- Open an [issue](https://github.com/ceptor29/radar/issues) describing the bug or feature so we know what you are working on.
 - Keep changes focused: one logical change per PR.
 
 ## Development workflow
@@ -44,7 +44,7 @@ Use conventional, imperative-style commits, e.g.:
 
 ## Reporting bugs
 
-Use the [bug report template](https://github.com/CEPTORB/aegis-grc/issues/new/choose) and include the browser/Node versions, steps to reproduce, and whether it happens with `npm run dev`.
+Use the [bug report template](https://github.com/ceptor29/radar/issues/new/choose) and include the browser/Node versions, steps to reproduce, and whether it happens with `npm run dev`.
 
 ## Code of conduct
 

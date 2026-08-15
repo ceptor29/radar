@@ -31,7 +31,7 @@ jobs:
         run: npm test
 
       - name: Build web
-        run: npm run build --workspace @aegis/web
+        run: npm run build --workspace @radar/web
 
       - name: Seed database
         run: npm run seed
@@ -55,7 +55,7 @@ jobs:
           npm run dev:server > server.log 2>&1 &
           status=0
           for i in $(seq 1 30); do
-            if curl -fsS http://localhost:4000/health > /dev/null 2>&1; then
+            if curl -fsS http://localhost:4000/api/health > /dev/null 2>&1; then
               echo "Server is up"
               exit 0
             fi

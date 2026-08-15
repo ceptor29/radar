@@ -25,7 +25,7 @@ function requireKey(apiKey: string | undefined): { tenantId: string } {
 }
 
 restApi.get("/health", (_req, res) => {
-  res.json({ ok: true, service: "aegis-grc-server" });
+  res.json({ ok: true, service: "radar-server" });
 });
 
 restApi.get("/v1/risks", (req, res) => {

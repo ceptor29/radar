@@ -1,17 +1,17 @@
 {
-  "name": "aegis-grc",
+  "name": "radar",
   "version": "0.1.0",
   "private": true,
   "workspaces": [
     "apps/*"
   ],
   "scripts": {
-    "dev": "concurrently -k -n server,web -c blue,green \"npm run dev --workspace @aegis/server\" \"npm run dev --workspace @aegis/web\"",
-    "dev:server": "npm run dev --workspace @aegis/server",
-    "dev:web": "npm run dev --workspace @aegis/web",
-    "seed": "npm run seed --workspace @aegis/server",
+    "dev": "concurrently -k -n server,web -c blue,green \"npm run dev --workspace @radar/server\" \"npm run dev --workspace @radar/web\"",
+    "dev:server": "npm run dev --workspace @radar/server",
+    "dev:web": "npm run dev --workspace @radar/web",
+    "seed": "npm run seed --workspace @radar/server",
     "test": "vitest run",
-    "typecheck": "npm run typecheck --workspace @aegis/server && npm run typecheck --workspace @aegis/web"
+    "typecheck": "npm run typecheck --workspace @radar/server && npm run typecheck --workspace @radar/web"
   },
   "devDependencies": {
     "concurrently": "^9.1.2",

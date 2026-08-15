@@ -7,7 +7,7 @@ import fs from "node:fs";
 const dataDir = path.resolve(import.meta.dirname, "../../data");
 fs.mkdirSync(dataDir, { recursive: true });
 
-export const sqlite = new Database(path.join(dataDir, "aegis.db"));
+export const sqlite = new Database(path.join(dataDir, "radar.db"));
 sqlite.pragma("journal_mode = WAL");
 sqlite.pragma("foreign_keys = ON");
 

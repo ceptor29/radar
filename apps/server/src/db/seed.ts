@@ -163,7 +163,7 @@ export function seed(): void {
       activityId, t, admin, "system.seeded", "Seeded demo workspace", "tenant", t, ts);
 
     insert("INSERT INTO api_keys (id, tenant_id, name, hashed_key, scopes, created_at) VALUES (?,?,?,?,?,?)",
-      randomUUID(), t, "demo-key", "aegis-demo-key", '["risk"]', ts);
+      randomUUID(), t, "demo-key", "radar-demo-key", '["risk"]', ts);
 
     sqlite.exec("COMMIT");
     console.log("Seeded demo workspace: tenants=1, users=4, frameworks=2, controls=4, risks=3");

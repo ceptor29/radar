@@ -36,7 +36,7 @@ export default function Layout() {
       <aside className="w-60 bg-slate-950 text-slate-300 flex flex-col sticky top-0 h-screen">
         <div className="px-6 py-6 border-b border-white/10">
           <p className="text-lg font-bold text-white tracking-tight">
-            Aegis <span className="text-indigo-400">GRC</span>
+            Radar
           </p>
           <p className="text-[11px] text-slate-500 mt-0.5">collect once, comply many</p>
         </div>

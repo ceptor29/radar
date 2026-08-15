@@ -39,7 +39,7 @@ export default function Login() {
         className="relative w-full max-w-sm bg-white/95 backdrop-blur rounded-2xl shadow-2xl p-8"
       >
         <p className="text-2xl font-bold text-slate-900">
-          Aegis <span className="text-indigo-600">GRC</span>
+          Radar
         </p>
         <p className="text-sm text-slate-500 mb-6">Governance · Risk · Compliance</p>
 

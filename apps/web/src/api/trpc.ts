@@ -4,7 +4,7 @@ import type { AppRouter } from "../../../server/src/routers/_app";
 
 export const trpc = createTRPCReact<AppRouter>();
 
-const TOKEN_KEY = "aegis_token";
+const TOKEN_KEY = "radar_token";
 
 export function getToken(): string | null {
   return localStorage.getItem(TOKEN_KEY);

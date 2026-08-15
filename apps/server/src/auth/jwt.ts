@@ -1,6 +1,6 @@
 import jwt from "jsonwebtoken";
 
-const SECRET = process.env.AEGIS_JWT_SECRET ?? "dev-secret-change-me";
+const SECRET = process.env.RADAR_JWT_SECRET ?? "dev-secret-change-me";
 
 export interface SessionPayload {
   sub: string;
