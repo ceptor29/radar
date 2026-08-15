@@ -1,0 +1,29 @@
+# Normalize line endings
+* text=auto eol=lf
+
+# Source files
+*.ts text
+*.tsx text
+*.js text
+*.jsx text
+*.cjs text
+*.mjs text
+*.json text
+*.md text
+*.yml text
+*.yaml text
+*.css text
+*.html text
+*.lock text
+
+# Binaries
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.db binary
+
+# Linguist overrides (docs/plans should not count as source)
+*.md linguist-documentation
