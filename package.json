@@ -14,7 +14,7 @@
     "typecheck": "npm run typecheck --workspace @radar/server && npm run typecheck --workspace @radar/web"
   },
   "devDependencies": {
-    "concurrently": "^9.1.2",
+    "concurrently": "^10.0.5",
     "puppeteer-core": "^23.11.1",
     "typescript": "^5.7.3",
     "vitest": "^4.1.10"
